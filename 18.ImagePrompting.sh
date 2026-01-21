@@ -34,7 +34,7 @@ Turn this image into a ghibli style sticker set with different emotions
 
 # Upload person-standing.jpg
 
-Can you show this person wearing indian clothing at a wedding?
+Can you show this person wearing Indian clothing at a wedding?
 
 
 ------------------
@@ -44,6 +44,17 @@ Could you have him have dreadlocks? (please maintain the same Indian wedding bac
 
 # Can maintain the character across edits
 
+
+------------------
+# Nano Banana
+
+# Upload empty-room.jpg
+
+Can you please furnish this room tastefully
+
+# Follow up
+
+Can you please furnish the same room in a garish and overdone manner
 
 
 ------------------
@@ -57,7 +68,7 @@ Activity
 
 Could you describe what is in this image?
 
-# Try again on GPT-4 (it will work - stay on GPT 4)
+# Try again on GPT-5 (it will work - stay on GPT 5)
 
 ---------
 
@@ -65,7 +76,7 @@ ingredients
 
 Could you give me some ideas about what I could prepare using these ingredients?
 
-Can you generate an excel sheet with the list of images?
+Can you generate an excel sheet with the list of ingredients?
 
 ---------
 
