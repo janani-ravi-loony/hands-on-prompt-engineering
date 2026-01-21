@@ -6,9 +6,6 @@ Prompting Using Generative AI
 
 https://chat.openai.com/ (using ChatGPT Plus)
 
-
-https://chat.openai.com/ (free account)
-
 https://gemini.google.com/ (paid account)
 
 # https://zapier.com/blog/gemini-vs-chatgpt/
@@ -48,7 +45,6 @@ https://help.openai.com/en/articles/11909943-gpt-5-in-chatgpt
 Can you browse popular newspapers from the US and tell me what today's headlines are?
 """
 
-# - ChatGPT free
 # - ChatGPT plus
 # - Gemini
 # - Claude
@@ -130,7 +126,7 @@ https://ai.google.dev/gemini-api/docs/models
 # Google’s Gemini language models are “natively multimodal”, which means it’s trained a variety of inputs, not just text. Google has also fine-tuned the model with more multimodel information. They can also access the internet in real time.
 
 """
-Can you give me a quick overview of how exactly AWS broke the internet yesterday?
+Can you give me a quick overview of what's happening in Davos right now?
 """
 
 # Click on 3 dots and double check responses 
@@ -171,7 +167,7 @@ What does Rosie learn at the end of the story?
 
 # Uses multiple Open AI's models and other models to power its chat 
 
-# Copilot utilizes the Microsoft Prometheus model. This model is based on OpenAI's GPT-4, GPT-4 Turbo, and GPT-4o large language models. It also uses a component called the Orchestrator, which generates search queries to combine Bing search results with the OpenAI models. In addition, Copilot uses the DALL-E 3 model for image generation. 
+# Copilot utilizes the Microsoft Prometheus model. This model is based on OpenAI's GPT-5, GPT-4o, GPT-4 Turbo, and GPT-4o large language models. It also uses a component called the Orchestrator, which generates search queries to combine Bing search results with the OpenAI models. In addition, Copilot uses the DALL-E 3 model for image generation. 
 
 
 I need to quickly brush up on my Excel skills for a project. How do I start?
