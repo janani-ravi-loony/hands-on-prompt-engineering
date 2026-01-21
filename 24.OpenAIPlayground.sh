@@ -62,23 +62,131 @@ Did you get a chance to catch with Dan, he has been working on some exciting stu
 # Click on the broom icon on the top right to clear everything
 
 
+
+----------------------------------------------------------------
+# Compare models
+----------------------------------------------------------------
+
+# Clear everything and go to the default (get out of the Shakespeare model)
+
+# Click on Compare models
+
+# Make sure "Apply to this variant only" is unchecked
+
+# Set up the first one gpt-4.1
+
+# Set up the second one gpt-5
+
+# System message
+
+You are an advanced AI model tasked with analyzing current world events. Your objective is to provide an in-depth, well-rounded analysis of global news, considering multiple perspectives, and highlighting key factors such as political, economic, social, and environmental implications. You should:
+
+Summarize the event or issue concisely.
+
+Provide relevant background information or context.
+
+Highlight major stakeholders involved.
+
+Discuss any immediate or long-term impacts.
+
+Analyze potential future developments or outcomes.
+
+Offer perspectives from multiple sources or viewpoints where applicable.
+
+Maintain a neutral, factual tone, avoiding personal opinions or biases.
+
+# Prompt
+
+What do you think is the impact of tariffs on any economy?
+
+# Show the difference in the responses between the two models
+
 ---------------------------------------
 
-# Remove the system message
+# Let's see if gpt-5 indeed lacks empathy
 
-# Click on "Compare" on the top right of the screen
+# Clear the previous system messages
 
-# Choose "gpt-4o" on the left and "gpt-3.5" on the right
+I’ve been feeling invalidated and sidelined at work. My contributions get overlooked, and I worry sharing them will just backfire. It’s making me question my own abilities and is affecting my motivation. I’d like help understanding how to cope with this and assert myself effectively.
+
+
+
+--------------------------------------------------------
+GPT-5
+--------------------------------------------------------
+
+
+# Click on the models drop down and show all the models 
+
+"Model": "gpt-5"
+
+# Don't set anything in system
+
+# Prompt
 
 """
-I am creating multiple choice questions on the topic of machine learning. Could you please set up a question where the right answer is "classification". Have the question include a scenario and be fairly detailed.
+I'd like to learn more about prompt engineering, how do you recommend I start?
 """
 
+# Show the reasoning tokens - this model asks itself a bunch of context specific questions before responding
+
+# Show the model options 
+
+Text format
+Reasoning effort
+Verbosity
+Summary
+
+---------------------------
+
+# Set summary to null
+
+
+# Clear out the prompt and the response and ask the same question again
+
+"""
+I'd like to learn more about prompt engineering, how do you recommend I start?
 """
 
-Could you set up a multiple choice question on SQL where the right answer is the 'inner join'. Once again, please make this a scenario-base question.
+# Note you get a faster response and you cannot see the model's reasoning
+
+---------------------------
+
+
+# Set reasoning effort to minimal
+
+# Clear out the prompt and the response and ask the same question again
 
 """
+I'd like to learn more about prompt engineering, how do you recommend I start?
+"""
+
+# Note that it uses no reasoning tokens
+
+--------------------------------------------------
+
+# Set reasoning effort -> high
+
+# Set verbosity -> low
+
+
+# Summary: auto
+
+You are an expert urban planner tasked with optimizing traffic flow across a growing city with only two main arteries and increasing congestion.
+
+Your goal: Propose a multi-phase, scalable infrastructure plan addressing current bottlenecks and anticipating future expansion over the next 20 years.
+
+Please provide:
+• A direct, actionable high-level strategy overview.
+• Your detailed reasoning process—describe how you evaluated trade-offs, considered constraints, and decided on each phase.
+• Optional alternative approaches or contingency options.
+• A concise summary of the next immediate step that can kick off implementation.
+
+Use structured bullet points or numbered lists for clarity.
+
+--------------------------------------------------------
+GPT-4.1
+--------------------------------------------------------
 
 ---------------------------------------
 # Temperature
@@ -266,88 +374,23 @@ I was walking down the road when suddenly
 
 # Each time you can see that the endings are the most creative
 
-
-
 ----------------------------------------------------------------
-# The Assistants API - Data Visualizer and Interpreter (can do this in ChatGPT as well)
+# File search
 ----------------------------------------------------------------
 
-# Click on "Create Assistant"
+# Select "File Search" in "Tools"
 
-Name: Data Visualizer and Interpreter
-Instructions: You are an assistant that helps with data visualization and interpretation of supermarket sales data. Please use Python code to generate visualizations and provide narrative summaries to help interpret data
-Model: gpt-4o
+# Drag the HP Manual to "File Search"
 
-# Hover over each and show what they are
+# Name it "HP Manual"
 
-Functions
-Code interpreter
-Retrieval
+# Click on "Attach"
 
-# Enable the following
+# Now you can ask questions about the "HP Manual"
 
-Code interpreter
+How do I work the camera on my phone?
 
-# Upload the supermarket_sales.csv file
-
-# Once done ask questions
-
-"""
-Can you tell me what are the different types of customers this supermarket serves?
-"""
-
-"""
-Can you give me a line chart showing me how the profits have changed over the time period in the data?
-"""
-
-# Follow up with
-
-"""
-Can you give me a visualization of the total sales for each product line?
-"""
-
-
-
--------------------------------------
-
-# Open up the logs on the right
-
-# Scroll to the top
-
-# Expand the first few post requests
-
-# Expand a few GET requests with meaningful infos (Get Messages has useful info)
-
-
-
-----------------------------------------------------------------
-# The Assistants API - News Summarizer (can do this in ChatGPT as well)
-----------------------------------------------------------------
-
-# Click on "Create Assistant"
-
-Name: News Summarizer
-Instructions: You are a helpful assistant who is capable of parsing the information in the PDF provided to respond to my questions
-Model: gpt-4o
-
-# Enable the following
-
-File Search
-
-# Upload the following document
-
-WSJ_SpaceX.pdf
-
-
-Could you quickly summarize what this article has to say?
-
-
-Why is this a significant achievement?
-
-
-What does the article say about SpaceX and reusability of rockets?
-
-
+How do I set a screen lock?
 
 ----------------------------------------------------------------
 # Function calling
