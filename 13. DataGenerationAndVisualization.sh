@@ -67,7 +67,10 @@ Data Visualization
 
 # ChatGPT, Gemini, Claude
 
-Can you please set up an interactive visualization of skewed data? What does it mean for data to be right skewed or left skewed?
+For normally distributed data can you please generate an interactive visualization that allows me to understand how the mean and the standard deviation affect the shape of the distribution?
+
+
+Can you draw an interactive visualizations showing right tailed and left tailed data? Use skewness as a metric to control the tailed-ness of the data - this should be the knob I can tweak
 
 # Show what each of them generate
 

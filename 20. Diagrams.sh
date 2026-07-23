@@ -65,12 +65,9 @@ def check_value(number):
 
 Can you please generate a flow chart representing this code?
 
-# It's not perfect
-
+# It's quite good now!
 
 ---------------------------------------------
-
-# On a new chat
 
 # Set up some code
 
@@ -101,17 +98,7 @@ def check_value(number):
 
 # Prompt
 
-Can you please generate a flow chart representing this code in Plant UML?
-
-# Go to 
-
-
-https://www.plantuml.com/
-
-# Paste the code in - this is actually correct
-
-
-
+Can you please generate a flow chart representing this code using mermaid diagrams?
 
 
 

@@ -8,7 +8,6 @@ https://chat.openai.com/ (using ChatGPT Plus)
 
 https://gemini.google.com/ (paid account)
 
-# https://zapier.com/blog/gemini-vs-chatgpt/
 
 https://claude.ai/ (paid account)
 
