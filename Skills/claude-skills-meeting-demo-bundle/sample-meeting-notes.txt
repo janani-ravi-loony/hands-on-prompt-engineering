@@ -1,0 +1,44 @@
+ATLAS MOBILE v2 — LAUNCH READINESS MEETING
+Meeting date: October 1, 2026
+Attendees: Priya, Omar, Jan, Maya, Arjun
+Target launch: October 19, 2026
+
+Raw notes:
+
+Priya: We are still aiming for Monday, October 19, but we will not launch with the payment regression open.
+
+Omar: The regression currently appears only on Android 15 with Amex cards. The patch should land Monday. I own the full payment retest and will rerun the suite next Tuesday.
+
+Jan: The pricing page is finished except for the Enterprise paragraph. Legal still hasn't approved the phrase "guaranteed savings." I can remove that claim today unless Marketing wants to keep fighting for it.
+
+Priya: Remove the claim. We are not waiting on Legal.
+
+Marketing requested a $32,000 paid launch campaign. Company policy requires CFO approval for campaigns above $25,000. Sonia, the CFO, was not in the meeting.
+
+Priya: Submit the campaign to Sonia. Nobody spends anything until she approves it.
+
+Nobody explicitly volunteered to own the CFO submission.
+
+Maya: Support can do launch training on October 14 in the morning. My trainers are unavailable after October 14.
+
+Arjun: I had it booked for October 16.
+
+Priya: Then move the training to October 14.
+
+Arjun: Fine. I'll rebook it tomorrow.
+
+The customer migration email still needs to be written. Jan said the content team can help. Nobody took ownership. The group agreed it should go out at least 48 hours before launch.
+
+Omar: The Android build is also missing the checkout_failed analytics event. It won't break checkout, but the launch dashboard will be incomplete.
+
+Priya: Can that wait until the first patch after launch?
+
+Omar: Yes.
+
+Priya: Good. Put it in the first patch.
+
+Security sign-off is complete.
+
+Someone suggested issuing a press release, but the group did not discuss it further.
+
+Priya: Next launch checkpoint is October 8 at 3:00 PM.
