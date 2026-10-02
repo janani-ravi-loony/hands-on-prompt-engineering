@@ -1,0 +1,7 @@
+Coastal Line | #0077b6 | Seaview, Marina Bay, Port Central, Financial District, East Harbor, Lighthouse Point
+Tech Corridor | #7209b7 | Innovation Park, Startup Hub, Central Junction, Research Commons, North Campus, Robotics Valley
+Airport Express | #d62828 | International Airport, Skypark, Central Junction, Convention Center, Downtown Terminal
+Greenbelt Line | #40916c | Hill Farm, Garden Estates, Lakeside, Central Junction, Old Mill, South Meadows, Woodland Cross
+Sunset Line | #f77f00 | Canyon Edge, Westgate, Downtown Terminal, Arts District, Riverside Walk, Stadium Park
+Silver Connector | #6c757d | East Harbor, Convention Center, Arts District, Civic Center, Research Commons, North Campus
+Heritage Line | #9c6644 | Old Port, Civic Center, Museum Row, Downtown Terminal, Grand Bazaar, Temple Square

@@ -1,0 +1,6 @@
+Crimson Line | #c1121f | King's Gate, Opera, Old Quarter, Cathedral, Riverbank, South Market
+Navy Line | #1d3557 | West Docks, Riverbank, Parliament, University, Botanical Garden, East Gate
+Emerald Line | #2a9d8f | Artisan Square, Old Quarter, Central Exchange, Library, North Terrace, Observatory
+Amber Line | #f4a261 | South Market, Mint Street, Central Exchange, Parliament, Grand Circus, North Terrace
+Violet Line | #7b2cbf | Abbey Road, Cathedral, Library, Museum Mile, Grand Circus, Crescent Park
+Silver Ring | #8d99ae | King's Gate, Opera, Central Exchange, Parliament, Grand Circus, Museum Mile, Observatory, North Terrace, East Gate, Botanical Garden, University, Riverbank, Cathedral, Old Quarter, King's Gate

@@ -1,0 +1,7 @@
+Red Line | #e63946 | Central, Museum, Park Street, Riverside, East Market, Hilltop
+Blue Line | #457b9d | Harbor, Central, Old Town, University, North Gate, Lakeview
+Green Line | #2a9d8f | South End, Park Street, City Hall, Old Town, West Lake, Pine Grove
+Gold Line | #e9c46a | Airport, East Market, City Hall, Stadium, Grand Arena
+Purple Line | #8d5fd3 | Tech Park, University, Garden Row, Stadium, South End
+Orange Line | #f4a261 | Old Port, Harbor, Market Square, City Hall, East Gardens, Sunrise Point
+Silver Line | #9aa0a6 | Hilltop, North Gate, Observatory, Grand Arena, South End
